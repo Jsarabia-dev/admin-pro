@@ -7,8 +7,8 @@ import { ProgressComponent } from './progress/progress.component';
 import { Grafica1Component } from './grafica1/grafica1.component';
 
 const routes: Routes = [
-    { 
-        path: 'dashboard', 
+    {
+        path: 'dashboard',
         component: PagesComponent,
         children: [
             { path: '', component: DashboardComponent },
@@ -23,5 +23,3 @@ const routes: Routes = [
     exports: [ RouterModule ]
 })
 export class PagesRoutingModule {}
-
-
